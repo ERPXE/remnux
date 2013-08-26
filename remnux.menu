@@ -1,0 +1,8 @@
+LABEL REMNUX
+MENU LABEL ^Remnux Live 3.0
+KERNEL er/plugins/remnux/vmlinuz
+INITRD er/plugins/remnux/initrd.gz 
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/remnux/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Remnux Live x32.
+ENDTEXT

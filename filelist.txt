@@ -1,0 +1,6 @@
+.:
+filelist.txt
+initrd.gz
+remnux.menu
+splash.png
+vmlinuz
